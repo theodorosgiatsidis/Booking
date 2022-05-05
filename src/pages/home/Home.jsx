@@ -1,11 +1,11 @@
 import React from "react";
+import Featured from "../../components/featured/Featured";
+import Header from "../../components/header/Header";
+import PropertyList from "../../components/propertyList/PropertyList";
+import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
+import MailList from "../../components/mailList/MailList";
+import Footer from "../../components/footer/Footer";
 import "./home.css";
-import Featured from "../components/featured/Featured";
-import Header from "../components/header/Header";
-import FeaturedProperties from "../components/featuredProperties/FeaturedProperties";
-import PropertyList from "../components/propertyList/PropertyList";
-import MailList from "../components/mailList/MailList";
-import Footer from "../components/footer/Footer";
 
 const Home = () => {
   return (

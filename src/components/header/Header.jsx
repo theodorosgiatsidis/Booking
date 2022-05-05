@@ -13,7 +13,7 @@ import { useState } from "react";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { format } from "date-fns";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = ({ type }) => {
   const [destination, setDestination] = useState("");
@@ -32,7 +32,7 @@ const Header = ({ type }) => {
     room: 1,
   });
 
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleOption = (name, operation) => {
     setOptions((prev) => {
@@ -44,7 +44,7 @@ const Header = ({ type }) => {
   };
 
   const handleSearch = () => {
-    history("/hotels", { state: { destination, date, options } });
+    navigate("/hotels", { state: { destination, date, options } });
   };
 
   return (
