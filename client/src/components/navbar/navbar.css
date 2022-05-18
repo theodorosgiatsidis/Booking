@@ -26,3 +26,9 @@
     border: none;
     color: #003580;
 }
+
+.logout {
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+}
