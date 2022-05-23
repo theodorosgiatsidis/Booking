@@ -29,7 +29,7 @@
     left: 20px;
   }
 
-  @media (max-width:375px) {
+  @media (max-width:390px) {
     .featured {
       display: flex;
       flex-direction: column;

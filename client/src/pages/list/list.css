@@ -82,7 +82,7 @@
     flex: 3;
   }
 
-  @media (max-width:375px) {
+  @media (max-width:390px) {
     .listWrapper {
       display: flex;
       flex-direction: column;

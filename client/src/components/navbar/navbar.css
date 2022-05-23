@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .navbar {
         font-size: 15px;
     }

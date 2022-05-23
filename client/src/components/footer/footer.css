@@ -22,7 +22,7 @@
     cursor: pointer;
   }
 
-  @media (max-width:375px) {
+  @media (max-width:390px) {
     .footer {
       display: flex;
       flex-direction: column;
