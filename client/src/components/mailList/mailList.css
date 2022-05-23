@@ -30,3 +30,18 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  @media(max-width:375px) {
+    .mail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+
+     .mailInputContainer>button {
+      margin-top: 20px;
+      width: 150px;
+    }
+  }

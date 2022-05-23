@@ -21,3 +21,20 @@
     color: #003580;
     cursor: pointer;
   }
+
+  @media (max-width:375px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fLists {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }

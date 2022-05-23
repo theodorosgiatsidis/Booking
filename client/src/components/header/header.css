@@ -126,3 +126,45 @@
   .optionCounterButton:disabled {
     cursor: not-allowed;
   }
+
+  @media (max-width:375px) {
+
+    .headerContainer {
+      font-size: 9px;
+      margin: 0px 10px 30px;
+    }
+
+    .headerTitle {
+      font-size: 25px;
+    }
+
+    .headerDesc {
+      font-size: 15px;
+    }
+    .headerSearch {
+      padding-bottom:20px ;
+      text-align: center;
+      align-items: center;
+      width: 98vw;
+    }
+
+    .headerSearchItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .headerBtn{
+      font-size: 10px;
+    }
+
+    .headerSearchInput {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }

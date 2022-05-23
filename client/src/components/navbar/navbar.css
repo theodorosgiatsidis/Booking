@@ -32,3 +32,13 @@
     align-items: center;
     cursor: pointer;
 }
+
+@media (max-width: 375px) {
+    .navbar {
+        font-size: 15px;
+    }
+    .logout {
+        margin-right: 10px;
+    }
+
+}

@@ -107,3 +107,28 @@
     cursor: pointer;
     border-radius: 5px;
   }
+
+  @media(max-width:375px) {
+    .searchItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .siTaxiOp {
+      align-self: center;
+    }
+
+    .siPrice {
+      text-align: center;
+    }
+
+    .siTaxOp {
+      align-self: center;
+    }
+
+  .siCheckButton{
+    width: 80vw
+  }
+  }

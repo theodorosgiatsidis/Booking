@@ -149,3 +149,11 @@
     color: lightgray;
     cursor: pointer;
   }
+
+  @media(max-width:375px) {
+    .sliderImg {
+      width:60vw;
+      height: 60vw;
+      object-fit: cover;
+    }
+  }
