@@ -8,8 +8,9 @@
     "node": "16.13.0"
   },
   "scripts": {
-    "start": "node index.js"
-    },
+    "start": "node index.js",
+    "Procfile": "web: npm start"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
